@@ -13,6 +13,11 @@ export const metadata = {
   title: 'Abhiraksha',
   description:
     'Continuous, 100%-coverage audit for companies of any size, with extra cross-entity fraud detection for groups.',
+  robots: {
+    index: false,
+    follow: false,
+    noarchive: true,
+  },
 }
 
 export default function RootLayout({ children }) {
